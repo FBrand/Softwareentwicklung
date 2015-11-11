@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2012.7.16)  11 NOV 2015 16:08
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2012.7.16)  11 NOV 2015 16:37
 entering extended mode
 **U:/Softwareentwicklung/requirements_document/main.tex
 (U:/Softwareentwicklung/requirements_document/main.tex
@@ -731,14 +731,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
  [3
 
-] [4] [5])
+] [4])
 \tf@toc=\write6
 
 (U:\Softwareentwicklung\requirements_document\inputs.tex
 (U:\Softwareentwicklung\requirements_document\requirements//01-user/00-user.tex
-[6] [7
+[5] [6
 
-] [8])
+] [7] [8])
 (U:\Softwareentwicklung\requirements_document\requirements//01-user/01-req01.te
 x
 
@@ -750,32 +750,20 @@ Package hyperref Warning: Difference (4) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 8.
 
 
-Overfull \hbox (33.39099pt too wide) in paragraph at lines 9--10
-\T2A/cmr/m/it/10 wort an-melden oder das Pro-gramm ohne vorherige Reg-istrierun
-g nutzen(Anonym). 
- []
-
-
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 16.
+(hyperref)                than one, level fixed on input line 14.
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 22.
+(hyperref)                than one, level fixed on input line 20.
 
 [9] [10]
-Overfull \hbox (11.23605pt too wide) in paragraph at lines 139--140
+Overfull \hbox (11.23605pt too wide) in paragraph at lines 135--136
 []\T2A/cmr/m/it/10 Vorhandene Mod-elle sollen auf an-dere Daten angewen-det wer
 -den konnen
  []
 
-[11] [12]
-Overfull \hbox (6.47246pt too wide) in paragraph at lines 228--229
-\T2A/cmr/m/it/10 eine an-dere Gruppe Schreibrechte auf ein bes-timmtes Paket ge
-ben zu konnen. 
- []
-
-[13])
+[11] [12] [13])
 (U:\Softwareentwicklung\requirements_document\requirements//02-system/00-system
 .tex [14] [15
 
@@ -790,13 +778,7 @@ nctional/01-product/00-pro.tex)
 nctional/01-product/01-usability/00-usab.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 4.
-
-
-Overfull \hbox (3.04494pt too wide) in paragraph at lines 17--18
-[]\T2A/cmr/m/it/10 Die Web-Anwendung soll auf die fol-gen-den In-ter-net-browse
-rs nutzbar
- []
+(hyperref)                than one, level fixed on input line 5.
 
 [17
 
@@ -828,7 +810,7 @@ nctional/01-product/04-security/00-sec.tex
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 3.
 
-[19])
+)
 (U:\Softwareentwicklung\requirements_document\requirements//02-system/01-non-fu
 nctional/02-organizational/00-org.tex)
 (U:\Softwareentwicklung\requirements_document\requirements//02-system/01-non-fu
@@ -843,7 +825,7 @@ nctional/02-organizational/03-development/00-dev.tex
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 4.
 
-)
+[19])
 (U:\Softwareentwicklung\requirements_document\requirements//02-system/01-non-fu
 nctional/03-external/00-ext.tex)
 (U:\Softwareentwicklung\requirements_document\requirements//02-system/01-non-fu
@@ -867,11 +849,9 @@ nctional/03-external/03-legislative/01-accounting/00-leg.tex)
 (U:\Softwareentwicklung\requirements_document\requirements//02-system/01-non-fu
 nctional/03-external/03-legislative/02-safety_security/00-safsec.tex)
 (U:\Softwareentwicklung\requirements_document\requirements//02-system/01-non-fu
-nctional/03-external/03-legislative/02-safety_security/01-req01.tex [20])
+nctional/03-external/03-legislative/02-safety_security/01-req01.tex)
 (U:\Softwareentwicklung\requirements_document\requirements//02-system/02-functi
-onal/00-f.tex [21] [22
-
-]
+onal/00-f.tex [20]
 Chapter 2.
 )
 (U:\Softwareentwicklung\requirements_document\requirements//02-system/02-functi
@@ -882,27 +862,17 @@ Package hyperref Warning: Difference (4) between bookmark levels is greater
 
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 10.
+(hyperref)                than one, level fixed on input line 9.
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 18.
-
-[23] [24] [25] [26] [27]
-Overfull \hbox (4.5391pt too wide) in paragraph at lines 282--283
-[]\T2A/cmr/m/it/10 The sys-tem pro-vides an Open-Tox plu-gin which im-ple-ments
- the Open-
- []
-
-[28] [29] [30]
-Overfull \hbox (2.32841pt too wide) in paragraph at lines 402--403
-[]\T2A/cmr/m/it/10 The only things which are needed to use the soft-ware are an
- internet-
- []
+(hyperref)                than one, level fixed on input line 16.
 
 )
 (U:\Softwareentwicklung\requirements_document\requirements//03-scenario/00-scen
-.tex [31] [32
+.tex [21
+
+] [22
 
 ]
 Chapter 3.
@@ -920,70 +890,55 @@ Overfull \hbox (28.6152pt too wide) in paragraph at lines 13--14
  []
 
 
-Overfull \hbox (0.94145pt too wide) in paragraph at lines 24--25
-[]\T2A/cmr/m/it/10 Der Be-nutzer offnet die Seite in seinem Browser. 
+Overfull \hbox (1.35808pt too wide) in paragraph at lines 24--25
+[]\T2A/cmr/m/it/10 Der Be-nutzer offnet die Seite in seinem
+ []
+
+[23]
+Overfull \hbox (17.7207pt too wide) in paragraph at lines 30--31
+\T2A/cmr/m/it/10 Die Verbindung zum Server wird un-ter-brochen. Es wird eine de
+-mentsprechende
  []
 
 
-Overfull \hbox (23.45891pt too wide) in paragraph at lines 29--30
-\T2A/cmr/m/it/10 im Sys-tem nicht er-laubt ist, oder der verfugbare Spe-icher-
-platz wird uberschritten.
- []
-
-[33]
-Overfull \hbox (1.45436pt too wide) in paragraph at lines 38--39
+Overfull \hbox (1.45436pt too wide) in paragraph at lines 43--44
 \T2A/cmr/m/it/10 ster offnet sich wo der Nutzer einen Daten-satz aus der Daten
 -bank auswahlt,
  []
 
 
-Overfull \hbox (3.05287pt too wide) in paragraph at lines 42--43
+Overfull \hbox (3.05287pt too wide) in paragraph at lines 48--49
 \T2A/cmr/m/it/10 Der Be-nutzer gibt zu wenige und/oder un-zulassige Pa-ram-e-t
 er an, woraufhin
  []
 
+
+Overfull \hbox (18.34839pt too wide) in paragraph at lines 48--49
+\T2A/cmr/m/it/10 da der Server aus-ge-lastet ist. Zusatzlich wird die Po-si-ti
+on in der Warteschlange
+ []
+
 ))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
- [34]
+ [24]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
  (U:\Softwareentwicklung\requirements_document\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EA87F4D8DA1D7A0E490B299F98CE7888;10033.
+(rerunfilecheck)             Checksum: EA702493937DD38A1EA22F718AEC16BE;6107.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 8020 strings out of 493921
- 124618 string characters out of 3150023
- 207406 words of memory out of 3000000
- 10922 multiletter control sequences out of 15000+200000
- 17369 words of font info for 37 fonts, out of 3000000 for 9000
+ 7899 strings out of 493921
+ 122271 string characters out of 3150023
+ 205364 words of memory out of 3000000
+ 10870 multiletter control sequences out of 15000+200000
+ 17676 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 37i,6n,38p,1497b,388s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{glo:ICE} has been referenced but does not exist, 
+ 37i,6n,38p,1497b,386s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{glo:csv} has been referenced but does not exist, 
 replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:Flexdock} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:API} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:recordable\040plugins} has been referenced but 
-does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:webRTC} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:JavaScript} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:HTML5} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:csv} has been referenced but does not exist, re
-placed by a fixed one
 
 pdfTeX warning (dest): name{glo:arff} has been referenced but does not exist, r
 eplaced by a fixed one
@@ -992,18 +947,20 @@ pdfTeX warning (dest): name{glo:RDF} has been referenced but does not exist, re
 placed by a fixed one
 
 {Q:/MiKTeX.009/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<Q:/MiKTeX.009/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><Q:/MiKTeX.009/MiKTeX/fonts/ty
-pe1/public/cm-super/sfbx1000.pfb><Q:/MiKTeX.009/MiKTeX/fonts/type1/public/cm-su
-per/sfbx1200.pfb><Q:/MiKTeX.009/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb
-><Q:/MiKTeX.009/MiKTeX/fonts/type1/public/cm-super/sfbx2074.pfb><Q:/MiKTeX.009/
-MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><Q:/MiKTeX.009/MiKTeX/fonts/typ
-e1/public/cm-super/sfrm1000.pfb><Q:/MiKTeX.009/MiKTeX/fonts/type1/public/cm-sup
-er/sfrm1200.pfb><Q:/MiKTeX.009/MiKTeX/fonts/type1/public/cm-super/sfrm1728.pfb>
-<Q:/MiKTeX.009/MiKTeX/fonts/type1/public/cm-super/sfsl1000.pfb><Q:/MiKTeX.009/M
-iKTeX/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on main.pdf (34 pages, 326588 bytes).
+MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><Q:/MiKTeX.009/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><Q:/MiKTeX.009/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmti10.pfb><Q:/MiKTeX.009/MiKTeX/fonts/type1/public/cm-super/sfbx1000.pf
+b><Q:/MiKTeX.009/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><Q:/MiKTeX.009
+/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><Q:/MiKTeX.009/MiKTeX/fonts/ty
+pe1/public/cm-super/sfbx2074.pfb><Q:/MiKTeX.009/MiKTeX/fonts/type1/public/cm-su
+per/sfbx2488.pfb><Q:/MiKTeX.009/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb
+><Q:/MiKTeX.009/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><Q:/MiKTeX.009/
+MiKTeX/fonts/type1/public/cm-super/sfrm1728.pfb><Q:/MiKTeX.009/MiKTeX/fonts/typ
+e1/public/cm-super/sfsl1000.pfb><Q:/MiKTeX.009/MiKTeX/fonts/type1/public/cm-sup
+er/sfti1000.pfb>
+Output written on main.pdf (24 pages, 295757 bytes).
 PDF statistics:
- 964 PDF objects out of 1000 (max. 8388607)
- 188 named destinations out of 1000 (max. 500000)
- 1137 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 637 PDF objects out of 1000 (max. 8388607)
+ 118 named destinations out of 1000 (max. 500000)
+ 713 words of extra memory for PDF output out of 10000 (max. 10000000)
 
