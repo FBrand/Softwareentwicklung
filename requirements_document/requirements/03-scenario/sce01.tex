@@ -5,7 +5,7 @@
   \item [URSPRÜNGLICHE ANNAHME:]
     \textit{Der Benutzer öffnet die Webseite in seinem Browser.}
   \item [NORMAL:]
-    \textit{Der Benutzer gibt in die zugehörigen Textfelder seine e-mail-Adresse und Passwort ein und klickt auf den login-Button oder der Benutzer klickt auf den login-as-guest-Button}
+    \textit{Der Benutzer gibt in die zugehörigen Textfelder seine e-mail-Adresse und Passwort ein und klickt auf den login-button oder der Benutzer klickt auf den login-as-guest-button}
   \item [WAS KANN SCHIEFGEHEN:]
     \textit{Die Verbindung zum Server kann nicht hergestellt werden und es wird eine Fehlermeldung angezeigt.\\ 
 Der Nutzer gibt eine unzulässige Kombination von e-mail und Passwort an. Es wird eine Meldung angezeigt, dass der Benutzername oder das Passwort falsch ist und es wird gefragt, ob der Nutzer sich stattdessen als Gast anmelden will.\\
@@ -20,13 +20,18 @@ Die Verbindung mit dem Internet ist unterbrochen.
 
 \section{Datensätze hochladen}
 \begin{description}
-  \item [INITIAL ASSUMPTION:]
+  \item [URSPRÜNGLICHE ANNAHME:]
     \textit{Der Benutzer öffnet die Seite in seinem Browser.}
   \item [NORMAL:]
-    \textit{Der Benutzer klickt auf "Package" oben links. Dann wählt er ein Paket aus, oder erstellt ein neues Paket. Er kann danach Datensätze hochladen. Dafür klickt er auf den Button "Dateien hochladen". Dann bekommt er ein Fenster, wo er die Dateien aus seinem lokalen Computer auswählen kann, und klickt er auf OK. Die Dateien werden danach hochgeladen.}
-  \item [WHAT CAN GO WRONG:]
-    \textit{Der Benutzer ladet Datei hoch, dessen Typs im System nicht erlaubt ist, oder der verfügbare Speicherplatz wird überschritten. In den beiden Fällen bekommt er eine Fehlermeldung und der Hochladenprozess wird abgebrochen.
+    \textit{Der Benutzer klickt auf "Package" oben links. Dann wählt er ein Paket aus, oder erstellt ein neues Paket. Er kann danach Datensätze hochladen. Dafür klickt er auf den Button "Dateien hochladen". Dann erscheint ein Fenster, wo er die Dateien aus seinem lokalen Computer auswählen kann, und klickt er auf OK. Die Dateien werden danach hochgeladen.}
+  \item [WAS KANN SCHIEFGEHEN:]
+    \textit{Der Benutzer versucht eine Datei hochzuladen, dessen Typ im System nicht erlaubt ist, oder der verfügbare Speicherplatz wird überschritten. In beiden Fällen bekommt er eine Fehlermeldung und der Prozess wird abgebrochen.\\
+    Die Verbindung zum Server wird unterbrochen. Es wird eine dementsprechende Fehlermeldung gezeigt.
 }
+  \item [ANDERE AKTIVITÄTEN:]
+    \textit{}
+  \item [SYSTEMZUSTAND BEI ERFOLG:]
+    \textit{Der Nutzer hat neue Daten in die Datenbank geladen und freut sich.}
 \end{description}
 
 
@@ -35,10 +40,11 @@ Die Verbindung mit dem Internet ist unterbrochen.
  \item [URSPRÜNGLICHE ANNAHME:]
     \textit{Der Nutzer hat sich auf der Webseite angemeldet.}
   \item [NORMAL:]
-    \textit{Der Nutzer klickt auf den train-a-new-model-Button und ein Fenster öffnet sich wo der Nutzer einen Datensatz aus der Datenbank auswählt, mit dem er das Modell erstellen will. Dann wählt er in einem weiteren Menü den zu nutzenden Algorithmus und setzt die notwendigen Parameter. Sobald der train-now-Button gedrückt wird, startet die Berechnung des Modells und lizenzfreie Fahrstuhlmusik wird abgespielt bis die Berehnung beendet ist. Danach erscheint eine Meldung, dass die Berechnung erfolgreich abgeschlossen wurde, mit den Optionen das Modell direkt auf andere Daten anzuwenden, zu verwerfen oder abzuspeichern.}
+    \textit{Der Nutzer klickt auf den train-a-new-model-button und ein Fenster öffnet sich wo der Nutzer einen Datensatz aus der Datenbank auswählt, mit dem er das Modell erstellen will. Dann wählt er in einem weiteren Menü den zu nutzenden Algorithmus und setzt die notwendigen Parameter. Sobald der train-now-button gedrückt wird, startet die Berechnung des Modells und lizenzfreie Fahrstuhlmusik wird abgespielt bis die Berehnung beendet ist. Danach erscheint eine Meldung, dass die Berechnung erfolgreich abgeschlossen wurde, mit den Optionen das Modell direkt auf andere Daten anzuwenden, zu verwerfen oder abzuspeichern.}
   \item [WAS KANN SCHIEFGEHEN:]
     \textit{Es kann nicht auf den Datensatz oder das Modell zugegriffen werden, woraufhin eine Fehlermeldung erscheint.\\
-Der Benutzer gibt zu wenige und/oder unzulässige Parameter an, woraufhin eine Meldung erscheint, dass die Parameter für das gewählte Modell nicht zulässig sind.
+Der Benutzer gibt zu wenige und/oder unzulässige Parameter an, woraufhin eine Meldung erscheint, dass die Parameter für das gewählte Modell nicht zulässig sind.\\
+Es werden zu viele andere Anfragen an den Server gestellt. Es erscheint ein Warnhinweis, dass der Vorgang zur Zeit nicht ausgeführt werden kann, da der Server ausgelastet ist. Zusätzlich wird die Position in der Warteschlange der ausstehenden Anfragen angeeigt.
 }
   \item [ANDERE AKTIVITÄTEN:]
     \textit{}
